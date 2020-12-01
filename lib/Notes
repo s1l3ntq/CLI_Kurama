@@ -1,0 +1,5 @@
+git status -"list all of the files and newly changed files" #shows up newly changed files in red.
+
+git add . -"Saves all files so they are ready to be committed" #Turns all the red showing files green.
+
+git commit -m "Add Message"  #Provide the a message of the explanations of what was done to be pushed.
