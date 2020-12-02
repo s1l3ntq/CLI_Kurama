@@ -1,5 +1,6 @@
 require './lib/Kurama/CLI'
 require './lib/Kurama/API'
-require './lib/Kurama/Characters'
+require './lib/Kurama/Beer'
 
-
+require 'pry'
+require 'httparty'
