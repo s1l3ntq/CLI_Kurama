@@ -2,4 +2,25 @@ git status -"list all of the files and newly changed files" #shows up newly chan
 
 git add . -"Saves all files so they are ready to be committed" #Turns all the red showing files green.
 
-git commit -m "Add Message"  #Provide the a message of the explanations of what was done to be pushed.
+git commit -m "Add Message"  #Provide the a message of the explanations of what was done to be pushed. Commit as frequent as possible.
+
+git remote add orgin "insert url from github" #Connects our code base with this Repo. One time command!
+
+git push -u orgin master/ main #-u is a one time command. # After that only need to type git push orgin master. "U means setting up an upstream"
+
+
+Naruto API charater info
+Welcome
+ask for character name
+Return info about character
+input what special move they have
+show that info
+then ask to exit 
+go back to main menu 
+
+//Needs
+CLI class- dealing with the things showing int he terminal 
+APi Class- dealing witht he actural API itself 
+Character Class - deals with the character info
+
+chmod +x run "gives permission so we can just type run command.
