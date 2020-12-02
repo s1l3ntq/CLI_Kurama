@@ -1,10 +1,11 @@
 class Beer
     @@all = []
-    attr_accessor :name, :brewery_type
+    attr_accessor :name, :brewery_type, :street
 
-    def initialize(name, brewery_type)
+    def initialize(name, brewery_type, street)
         @name= name
         @brewery_type = brewery_type
+        @street = street
         @@all << self
     end
 

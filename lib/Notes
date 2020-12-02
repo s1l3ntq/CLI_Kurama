@@ -6,7 +6,7 @@ git commit -m "Add Message"  #Provide the a message of the explanations of what 
 
 git remote add orgin "insert url from github" #Connects our code base with this Repo. One time command!
 
-git push -u orgin master/ main #-u is a one time command. # After that only need to type git push orgin master. "U means setting up an upstream"
+git push -u origin master/ main #-u is a one time command. # After that only need to type git push orgin master. "U means setting up an upstream"
 
 
 Naruto API charater info
