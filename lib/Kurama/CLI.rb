@@ -71,19 +71,17 @@ LGB '.|____________________|     `--._||
         puts "Address: " + selection.street
         puts "---------------------"
         puts "Brew Type: " + selection.brewery_type
-        visit_website
+        visit_website(selection)
         drunk_spins
     end
 
-    def visit_website
+    def visit_website(selection)
         puts "**************************"
         puts "Would you like to visit website? y/n"
         input = gets.chomp.downcase
-        
-        blurry_vision(input)
-        selection = Beer.all[index]
         if input == "y"
-            puts selection.website_url
+            puts "**************************"
+            selection.website_url
         else
             drunk_spins
         end

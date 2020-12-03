@@ -4,3 +4,4 @@ require './lib/Kurama/Beer'
 
 require 'pry'
 require 'httparty'
+require 'launchy'
