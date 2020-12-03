@@ -129,7 +129,7 @@ LGB '.|____________________|     `--._||
     def blurry_vision(input)
         
        if input < 1 || input > 20
-        puts "invalid inputs please try again"
+        puts "Whoa you must be seeing things! Please try again."
         sleep(2)
         list_results
 

@@ -9,18 +9,18 @@ git remote add orgin "insert url from github" #Connects our code base with this 
 git push -u origin master/ main #-u is a one time command. # After that only need to type git push orgin master. "U means setting up an upstream"
 
 
-Naruto API charater info
+Brewery API Info
 Welcome
-ask for character name
-Return info about character
-input what special move they have
-show that info
+Show list of Breweries 
+Be able to select from the list of breweries
+list name, street, type
+option to show url
 then ask to exit 
-go back to main menu 
+or back to main menu 
 
 //Needs
 CLI class- dealing with the things showing int he terminal 
 APi Class- dealing witht he actural API itself 
-Character Class - deals with the character info
+Beer Class - deals with the brewery info
 
 chmod +x run "gives permission so we can just type run command.
