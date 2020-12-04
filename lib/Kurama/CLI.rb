@@ -74,23 +74,29 @@ LGB '.|____________________|     `--._||
         visit_website(selection)
         drunk_spins
     end
-#if the return is an empty string how do I make a paramater for it (15th company)
+
     def visit_website(selection)
         puts "**************************"
         puts "Would you like to visit their website? y/n"
         input = gets.chomp.downcase
         
-        if input == "y"
+        if input == "y" 
             puts "**************************"
+        
             if selection.website_url == ""
                 puts "Sorry, this brewery does not have a website."
             else
             puts selection.website_url
-    
             end
-            
-        else
+        elsif input == "n"
             drunk_spins
+        else
+            puts "Invalid selection please try again."
+            visit_website(selection)
+       
+  
+        # else
+        #     drunk_spins
         end
     end
 
