@@ -82,6 +82,7 @@ LGB '.|____________________|     `--._||
         if input == "y"
             puts "**************************"
             selection.website_url
+            #if the return is an empty string how do I make a paramater for it (15th company)
         else
             drunk_spins
         end
@@ -96,7 +97,7 @@ LGB '.|____________________|     `--._||
             list_results 
         else
             puts "**************************"
-            puts "Lets go get drunk!"
+            puts "Go have a pint!"
             puts "**************************"
             puts "                                                _.........._
                                               ,'            `.
