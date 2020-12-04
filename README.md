@@ -1,8 +1,7 @@
 # Kurama
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/Kurama`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Welcome to the Brewery gem. Choose from the list of breweries provided to you and learn the name, street, and type of beer that is brewed there. 
+All this by typing in bin/run in your terminal.
 
 ## Installation
 
@@ -22,7 +21,8 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+To run the file type in bin/run in your terminal after the gem install
+follow prompt.
 
 ## Development
 
