@@ -74,7 +74,7 @@ LGB '.|____________________|     `--._||
         visit_website(selection)
         drunk_spins
     end
-
+#if the return is an empty string how do I make a paramater for it (15th company)
     def visit_website(selection)
         puts "**************************"
         puts "Would you like to visit their website? y/n"
@@ -82,7 +82,6 @@ LGB '.|____________________|     `--._||
         if input == "y"
             puts "**************************"
             selection.website_url
-            #if the return is an empty string how do I make a paramater for it (15th company)
         else
             drunk_spins
         end
