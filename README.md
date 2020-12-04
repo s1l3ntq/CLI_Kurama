@@ -1,7 +1,7 @@
 # Kurama
 
-Welcome to the Brewery gem. Choose from the list of breweries provided to you and learn the name, street, and type of beer that is brewed there. 
-All this by typing in bin/run in your terminal.
+Welcome to the Brewery gem. Choose from the list of breweries provided to you and learn the name, street, and type of beer that is brewed there. There is even the option to vist the company website! 
+
 
 ## Installation
 
@@ -21,8 +21,8 @@ Or install it yourself as:
 
 ## Usage
 
-To run the file type in bin/run in your terminal after the gem install
-follow prompt.
+To run the file type in bin/run in your terminal after the gem install.
+ Then follow prompt.
 
 ## Development
 
