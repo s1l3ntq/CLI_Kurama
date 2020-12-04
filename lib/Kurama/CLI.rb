@@ -79,13 +79,22 @@ LGB '.|____________________|     `--._||
         puts "**************************"
         puts "Would you like to visit their website? y/n"
         input = gets.chomp.downcase
+        
         if input == "y"
             puts "**************************"
-            selection.website_url
+            if selection.website_url == ""
+                puts "Sorry, this brewery does not have a website."
+            else
+            puts selection.website_url
+    
+            end
+            
         else
             drunk_spins
         end
     end
+
+    
 
     def drunk_spins
         puts "***************************"
