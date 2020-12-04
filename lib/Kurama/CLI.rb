@@ -77,7 +77,7 @@ LGB '.|____________________|     `--._||
 
     def visit_website(selection)
         puts "**************************"
-        puts "Would you like to visit website? y/n"
+        puts "Would you like to visit their website? y/n"
         input = gets.chomp.downcase
         if input == "y"
             puts "**************************"
